@@ -4,7 +4,12 @@ python-multipart
 pymupdf
 reportlab
 python-docx
+python-pptx
+openpyxl
+Pillow
 pdf2docx
 beautifulsoup4
 markdown
 weasyprint
+# Optional (Windows only): lets FileShift use Microsoft PowerPoint for PPTX -> PDF if installed
+pywin32; sys_platform == "win32"
