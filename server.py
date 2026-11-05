@@ -2198,5 +2198,5 @@ if __name__ == '__main__':
     # Set HOST=0.0.0.0 if you deliberately want other devices on your network to use it.
     host = os.environ.get('HOST', '127.0.0.1')
     print(f"\n  FileShift is running ->  http://localhost:{port}\n"
-          f"  Open that address in your browser (not 0.0.0.0).  Press Ctrl+C to stop.\n")
+          f" Press Ctrl+C to stop.\n")
     uvicorn.run(app, host=host, port=port)
